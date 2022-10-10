@@ -1,3 +1,5 @@
+
+
 ## Table of contents
 1. Introduction
 2. What is GitHub?
@@ -11,22 +13,22 @@
     
 
 ## Introduction 
-
-As teams work remotely, it is important that 
-
-It lets you track and manage changes made to files and folders
+Every basic fundamental skill a developer should have is the knowledge of Git and GitHub. The two tools provide a lot of benefits for organizations and individuals in the sense that everyone can contribute to a project from anyhwere. In this article, we would see how this two tools have made developers life simple and easy.
 
 ## What is Github?
-GitHub is an open source
+GitHub is an open source cloud-based Git repository hosting service.
 GitHub makes it possible for developers anyhwere in the world to make contributions to a project, and has been a major factor for remote work as well. It helps in sustaining consistency and visibility.
 
 ## Why GitHub?
+GiHub has many advantages hence why it has been widely adopted.
+- Collaboration: It helps to create seamless collaboration across teams in managing and tracking changes to a project, that way every memeber of the teams is up to date with the latest changes
+- Backup of files: GitHub helps to prevent situations when your local computer has been tampered with and you accidentally lose all your files. Hosting projects in an online repository helps for easy retrieval at any time.
 
 
 ## Git vs GitHub
-Git is a version control tool which is employed to record changes made to files by keeping a track of modifications done to the code. It helps to ensure all team meneers are working on the latest version of the file. Git is a major factor in collaboration as it allows different people to work together on a project.
+Git is a version control system which is employed to record changes made to files by keeping a track of modifications done to the code. It helps to ensure all team members are working on the latest version of the file. It allows different people to work together on a project from their local machine.
 
-GitHub on the other hand is a Git repository hosting service. This hleps teams 
+GitHub on the other hand is a Git repository hosting service. It hosts projects which have been worked on already from your local machine. This allows collaborators to see the latest version of that projects and clone a copy of it to their local machine at any point in time.
 
 ## How to clone
 In order to make changes to codes, folders or file, you need to have a copy of the repository where all the files are stored in on your local computer. Assuming you just started working as a developer in a new company, you obviously do not have the files required for your work. All of these files would be stored in a repository which allows you to have access to it from anywhere. With GitHub you can easily clone the repository needed for your work to your local computer, make changes to the project, make a pull request for teammates to see and approve your work and then it gets merged. We would be focusing on cloning a repository for now.
@@ -124,19 +126,21 @@ git push origin <branch-name>
 ```
 After completing this step, return to GitHub. You should have two branches now on that repository.
 
-11. If you have done the previous steps successfully, you should get a message stating you have made a successful push. Go back to GitHub to see your pushed branch.
-12. On GitHub, on the right-hand side of the new branch, you will see a green button tagged 'compare and pull request', click it to proceed.
-13. By clicking on 'compare and pull request' you have initiated a pull request, on this page you will see two bars showing your new branch with changes on the right and the Master branch published by the repository owner on the left. Below these bars is a text box, where you can add a message stating why you want to make a pull request to the owner and possibly the changes you made. Then, click 'create pull request'.
-14. You have successfully created a pull request after completing step 13, all that's left is to wait for the repository author to accept your request and publish the change you made.
+On that repository you should see a `compare and pull request` button, select it. This allows you to initiate a pull request showcasing the change you made and how it differs from the content of the original repository. In the dialogue box below, add a message stating the changes you made and your intent for the pull request, the select `create pull request`.
+
+After initiating a pull request, the maintainer of that repository has to review the changes made and decide whether or not to merge your changes into the original repository.
 
 ## How to do a commit
-[Commit](https://github.com/git-guides/git-commit) is a git command used to save changes made to a local repository before the repository is pushed to the GitHub platform. You have to be specific with the changes you want to commit and also add a message of what the change is about when you implement the commit command line.
+A commit message lets you describe the change or improvement made to a file. It should be descriptive and intentional that way other collaborators know the exact change that has been made.
+To make a commit, use the below command
 
-The commit syntax is:- git commit -m "a message explaining what the commit is about"
+```
+git commit -m "<commit message>"
+```
 
 ## GitHub desktop vs GitHub CLI
-[GitHub Desktop](https://docs.github.com/en/desktop) is a software programme version of GitHub that can be installed on your device. You can implement most Git commands from GitHub desktop with visual confirmation of all the changes you make.
-[Github CLI](https://docs.github.com/en/get-started/using-github/github-cli) is an open-source tool that allows developers to access GitHub using your computer's command line interface. You do not need to install GitHub or any software to use GitHub CLI. All you need is already on your computer.
+Referring to the documentation, [GitHub Desktop](https://www.bing.com/search?q=what+is+github+desktop&cvid=240c58ee909b4a81ab123642ceca7810&aqs=edge.0.69i59j0l8.11779j0j1&pglt=299&FORM=ANNTA1&PC=U531) is an application that enables you to interact with GitHub using a GUI instead of the command line or a web browser, while [GitHub CLI](https://docs.github.com/en/github-cli) is an open source tool for using GitHub from your computer's command line.
+
 
 ## Conclusion
-Git and GitHub are two fundamental tools for every developer. They 
+Git and GitHub are two fundamental tools for every developer as they help to maintain project files and keep everyone on the team up to date. Maintaining the synergy in every organization is important, hence why you should start using these two tools.
