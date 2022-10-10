@@ -12,18 +12,21 @@
 
 ## Introduction 
 
-As teams work remote;y, it is important that 
+As teams work remotely, it is important that 
 
 It lets you track and manage changes made to files and folders
 
 ## What is Github?
-
+GitHub is an open source
+GitHub makes it possible for developers anyhwere in the world to make contributions to a project, and has been a major factor for remote work as well. It helps in sustaining consistency and visibility.
 
 ## Why GitHub?
 
 
 ## Git vs GitHub
+Git is a version control tool which is employed to record changes made to files by keeping a track of modifications done to the code. It helps to ensure all team meneers are working on the latest version of the file. Git is a major factor in collaboration as it allows different people to work together on a project.
 
+GitHub on the other hand is a Git repository hosting service. This hleps teams 
 
 ## How to clone
 In order to make changes to codes, folders or file, you need to have a copy of the repository where all the files are stored in on your local computer. Assuming you just started working as a developer in a new company, you obviously do not have the files required for your work. All of these files would be stored in a repository which allows you to have access to it from anywhere. With GitHub you can easily clone the repository needed for your work to your local computer, make changes to the project, make a pull request for teammates to see and approve your work and then it gets merged. We would be focusing on cloning a repository for now.
@@ -136,6 +139,4 @@ The commit syntax is:- git commit -m "a message explaining what the commit is ab
 [Github CLI](https://docs.github.com/en/get-started/using-github/github-cli) is an open-source tool that allows developers to access GitHub using your computer's command line interface. You do not need to install GitHub or any software to use GitHub CLI. All you need is already on your computer.
 
 ## Conclusion
-As a newbie in program development learning how to use GitHub is an essential part of your career in program development. GitHub is basic knowledge and it is necessary to help you connect with other developers, learn from other developers, and possibly get a job opportunity.
-
-I hope this guide was helpful to get you started on what GitHub is and how it works.
+Git and GitHub are two fundamental tools for every developer. They 
